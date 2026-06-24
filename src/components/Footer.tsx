@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="flex items-center gap-4">
           {/* X / Twitter */}
           <a
-            href="https://x.com/meetmindweb"
+            href="https://x.com/meetmindfun"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#9B958E] hover:text-[#1a1a1a] transition-colors"

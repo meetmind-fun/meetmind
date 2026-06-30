@@ -70,6 +70,12 @@ export default function Footer() {
         </div>
 
       </div>
+
+      <div className="max-w-6xl mx-auto flex justify-center mt-6">
+        <a href="https://orynth.dev/projects/meetmind" target="_blank" rel="noopener">
+          <img src="https://orynth.dev/api/badge/meetmind?theme=light&style=default" alt="Featured on Orynth" width="260" height="80" />
+        </a>
+      </div>
     </footer>
   );
 }

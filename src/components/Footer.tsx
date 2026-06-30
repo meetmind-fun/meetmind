@@ -71,9 +71,14 @@ export default function Footer() {
 
       </div>
 
-      <div className="max-w-6xl mx-auto flex justify-center mt-6">
-        <a href="https://orynth.dev/projects/meetmind" target="_blank" rel="noopener">
-          <img src="https://orynth.dev/api/badge/meetmind?theme=light&style=default" alt="Featured on Orynth" width="260" height="80" />
+      <div className="max-w-6xl mx-auto flex justify-center mt-8 pt-4 border-t border-[#E5E2DC]">
+        <a href="https://orynth.dev/projects/meetmind" target="_blank" rel="noopener" className="block">
+          <img 
+            src="https://orynth.dev/api/badge/meetmind?theme=light&style=default" 
+            alt="Featured on Orynth" 
+            className="h-auto w-auto max-w-xs"
+            style={{ maxWidth: "260px" }}
+          />
         </a>
       </div>
     </footer>
